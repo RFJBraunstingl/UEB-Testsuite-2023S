@@ -1,0 +1,33 @@
+object
+id cat44
+num 65327
+(
+int
+;
+;
+num 2
+end
+;
+)
+)
+return
+num 3
+id abc
+<-
+num 3009
+num 1
+->
+id end111
+null
+)
+id func
+(
+int
+,
+id custom2
+,
+num 42
+)
+;
+num 291
+;

@@ -1,0 +1,13 @@
+class Animal_999_###
+	(* short one line comment *)
+	int a <- 0x55_;
+	(*
+	 *
+
+
+	 * multi-line comment
+	 * * ***)420 > 0
+;
+(**short*)
+(**)cond#continue#break(**)
+;
