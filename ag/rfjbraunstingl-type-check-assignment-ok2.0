@@ -1,0 +1,13 @@
+
+int x(object, int);
+
+class y
+
+int x(object z1, int z2)
+
+	z1 <- null;
+
+	return 0
+end;
+
+end;

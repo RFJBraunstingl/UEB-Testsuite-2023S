@@ -1,0 +1,10 @@
+
+object foo(object);
+
+class bar
+
+object foo(object baz)
+	return baz
+end;
+
+end;

@@ -1,0 +1,13 @@
+
+int add(object, int, int);
+
+int yy(object, int);
+
+class impl
+
+	int add(object foo, int a, int b)
+		
+		int y <- 0;
+		return a + b
+	end;
+end;

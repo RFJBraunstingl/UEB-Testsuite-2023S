@@ -1,0 +1,17 @@
+
+int x(object, int);
+object y(object, int);
+
+class foo
+
+int x(object xa, int xb)
+	int abc <- 123;
+	return xb
+end;
+
+object y(object ya, int yb)
+	int abc <- 123;
+	return ya
+end;
+
+end;

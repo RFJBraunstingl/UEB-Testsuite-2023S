@@ -1,0 +1,9 @@
+
+int add(object, int, int);
+
+class impl
+
+	int add(object foo, int a, int b)
+		return a + b
+	end;
+end;

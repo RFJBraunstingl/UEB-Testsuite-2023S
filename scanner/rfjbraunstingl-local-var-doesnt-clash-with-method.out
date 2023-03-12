@@ -1,0 +1,45 @@
+int
+id add
+(
+object
+,
+int
+,
+int
+)
+;
+int
+id yy
+(
+object
+,
+int
+)
+;
+class
+id impl
+int
+id add
+(
+object
+id foo
+,
+int
+id a
+,
+int
+id b
+)
+int
+id y
+<-
+num 0
+;
+return
+id a
++
+id b
+end
+;
+end
+;

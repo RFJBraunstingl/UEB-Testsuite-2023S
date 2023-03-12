@@ -1,0 +1,12 @@
+class
+id foo
+end
+;
+class
+id bar
+end
+;
+class
+id baz
+end
+;

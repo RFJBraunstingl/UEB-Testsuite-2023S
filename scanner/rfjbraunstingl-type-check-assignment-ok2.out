@@ -1,0 +1,29 @@
+int
+id x
+(
+object
+,
+int
+)
+;
+class
+id y
+int
+id x
+(
+object
+id z1
+,
+int
+id z2
+)
+id z1
+<-
+null
+;
+return
+num 0
+end
+;
+end
+;

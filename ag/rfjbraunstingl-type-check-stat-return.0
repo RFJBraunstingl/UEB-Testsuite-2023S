@@ -1,0 +1,12 @@
+
+int x(object);
+
+class foo
+
+int x(object bar)
+	return 123;
+
+	return 0
+end;
+
+end;

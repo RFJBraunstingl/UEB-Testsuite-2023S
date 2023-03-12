@@ -1,0 +1,56 @@
+int
+id x
+(
+object
+,
+int
+)
+;
+object
+id y
+(
+object
+,
+int
+)
+;
+class
+id foo
+int
+id x
+(
+object
+id xa
+,
+int
+id xb
+)
+int
+id abc
+<-
+num 123
+;
+return
+id xb
+end
+;
+object
+id y
+(
+object
+id ya
+,
+int
+id yb
+)
+int
+id abc
+<-
+num 123
+;
+return
+id ya
+end
+;
+end
+;

@@ -1,0 +1,30 @@
+int
+id x
+(
+object
+)
+;
+class
+id foo
+int
+id x
+(
+object
+id var
+)
+int
+id a
+<-
+num 0
+;
+object
+id b
+<-
+null
+;
+return
+num 0
+end
+;
+end
+;

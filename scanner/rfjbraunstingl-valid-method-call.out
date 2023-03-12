@@ -1,0 +1,23 @@
+int
+id foo
+(
+object
+)
+;
+class
+id bar
+int
+id foo
+(
+object
+id bar
+)
+return
+id foo
+(
+id bar
+)
+end
+;
+end
+;

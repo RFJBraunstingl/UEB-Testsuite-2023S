@@ -1,0 +1,12 @@
+(* one line comment *)
+
+(*
+multi
+line
+comment
+  *)
+
+(*
+****
+another multi-line comment
+****)

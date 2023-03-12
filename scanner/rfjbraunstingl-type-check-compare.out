@@ -1,0 +1,32 @@
+int
+id cmp
+(
+object
+,
+int
+,
+int
+)
+;
+class
+id impl
+int
+id cmp
+(
+object
+id foo
+,
+int
+id a
+,
+int
+id b
+)
+return
+id a
+#
+id b
+end
+;
+end
+;

@@ -1,0 +1,20 @@
+object
+id x
+(
+object
+)
+;
+class
+id foo
+object
+id x
+(
+object
+id bla
+)
+return
+id bla
+end
+;
+end
+;

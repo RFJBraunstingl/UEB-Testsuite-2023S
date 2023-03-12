@@ -1,0 +1,31 @@
+int
+id x
+(
+object
+)
+;
+class
+id y
+int
+id x
+(
+object
+id foo
+)
+int
+id z1
+<-
+num 0
+;
+object
+id z2
+<-
+new
+id y
+;
+return
+num 0
+end
+;
+end
+;

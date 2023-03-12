@@ -1,0 +1,14 @@
+
+int x(object, int);
+
+class y
+
+int x(object z1, int z2)
+
+	z1 <- new y;
+	z2 <- 0;
+
+	return 0
+end;
+
+end;

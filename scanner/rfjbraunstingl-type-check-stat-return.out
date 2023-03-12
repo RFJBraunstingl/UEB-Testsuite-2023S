@@ -1,0 +1,23 @@
+int
+id x
+(
+object
+)
+;
+class
+id foo
+int
+id x
+(
+object
+id bar
+)
+return
+num 123
+;
+return
+num 0
+end
+;
+end
+;
