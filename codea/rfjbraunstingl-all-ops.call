@@ -1,0 +1,9 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*f)(struct objecty *, long, long, long); } y;
+
+printf("DEBUG: f(2, 3, 4) == %d\n", y.f(0, 2, 3, 4));
+
+RET(
+y.f(0, 2, 3, 4) == 280 &&
+y.f(0, -1, 1, -1) == 0
+);
