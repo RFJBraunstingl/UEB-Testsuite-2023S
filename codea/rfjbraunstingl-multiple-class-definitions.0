@@ -1,0 +1,34 @@
+int v(object);
+int w(object);
+int x(object);
+int y(object);
+int z(object);
+
+class a
+
+	int x(object foo) 
+		return 1
+	end;
+end;
+
+object bar(object);
+
+class b
+	int w(object foo)
+		return 2
+	end;
+end;
+
+class c
+	int v(object foo)
+		return 3
+	end;
+
+	int x(object foo)
+		return 4
+	end;
+
+	int z(object foo)
+		return 5
+	end;
+end;	

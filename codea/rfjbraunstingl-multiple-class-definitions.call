@@ -1,0 +1,13 @@
+
+struct objecta { struct mt *mta; };
+extern struct mt {
+	long (*v)(struct objecta *); 
+	long (*w)(struct objecta *); 
+	long (*x)(struct objecta *);
+	long (*y)(struct objecta *); 
+	long (*z)(struct objecta *); 
+	long (*bar)(struct objecta *); 
+} a;
+
+RET(a.x(0) == 1);
+
