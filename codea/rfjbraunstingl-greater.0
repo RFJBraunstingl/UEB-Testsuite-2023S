@@ -1,0 +1,8 @@
+int greater(object, int, int);
+
+class y 
+
+	int greater(object foo, int left, int right) 
+		return left > right
+	end;
+end;
