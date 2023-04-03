@@ -1,0 +1,12 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*or)(struct objecty *, long, long); } y;
+
+printf("1 or 0 = %d\n", y.or(0, 1, 0));
+printf("2 or 4 = %d\n", y.or(0, 2, 4));
+printf("16 or 1 = %d\n", y.or(0, 16, 1));
+
+RET(
+y.or(0, 1, 0) == 1 &&
+y.or(0, 2, 4) == 6 &&
+y.or(0, 16, 1) == 17
+);
