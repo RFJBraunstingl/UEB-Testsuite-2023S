@@ -1,0 +1,8 @@
+object x(object);
+
+class y 
+
+	object x(object foo) 
+		return null
+	end;
+end;
