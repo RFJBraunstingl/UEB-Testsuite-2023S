@@ -1,0 +1,12 @@
+
+int f(object);
+
+class Main
+
+	int f(object this)
+		int a <- 1 + 2 + (3 * 5);
+		int b <- -4;
+		int c <- a + b;
+		return c
+	end;
+end;
