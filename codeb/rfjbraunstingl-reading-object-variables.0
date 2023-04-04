@@ -1,0 +1,31 @@
+
+int get_a(object);
+int get_b(object);
+int get_c(object);
+
+int get_sum(object);
+
+class foo
+
+	int a;
+	int b;
+	int c;
+
+	int get_a(object this)
+		return a
+	end;
+
+	int get_b(object this)
+		return b
+	end;
+
+	int get_c(object this)
+		return c
+	end;
+
+	int get_sum(object this)
+		return a + b + c
+	end;
+
+end;
+

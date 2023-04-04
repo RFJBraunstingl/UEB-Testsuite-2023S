@@ -1,0 +1,8 @@
+int equal(object, int, int);
+
+class y 
+
+	int equal(object foo, int left, int right) 
+		return left # right
+	end;
+end;

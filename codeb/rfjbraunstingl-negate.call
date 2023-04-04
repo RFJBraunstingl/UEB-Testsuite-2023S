@@ -1,0 +1,13 @@
+struct objecty { struct mt *mty; };
+extern struct mt { 
+	long (*negate)(struct objecty *, long);
+	long (*double_negate)(struct objecty *, long);
+} y;
+
+RET(
+y.negate(0, 1) == -1 &&
+y.negate(0, -1) == 1 &&
+y.negate(0, 63827) == -63827 &&
+y.double_negate(0, 1) == 1 &&
+y.double_negate(0, -2) == -2
+);

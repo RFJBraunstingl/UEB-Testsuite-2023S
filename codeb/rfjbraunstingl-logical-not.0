@@ -1,0 +1,14 @@
+int lnot(object, int);
+int lnotnot(object, int);
+
+
+class y 
+
+	int lnot(object foo, int a) 
+		return not a
+	end;
+
+	int lnotnot(object foo, int a)
+		return not not a
+	end;
+end;

@@ -1,0 +1,9 @@
+int x(object);
+
+class y 
+
+	int x(object foo)
+		return 1; 
+		return 0
+	end;
+end;

@@ -1,0 +1,7 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*mul)(struct objecty *, long, long); } y;
+RET(
+y.mul(0, 2, 3) == 6 &&
+y.mul(0, 4, 5) == 20 &&
+y.mul(0, -4, 5) == -20
+);

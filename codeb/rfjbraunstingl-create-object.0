@@ -1,0 +1,11 @@
+
+int main(object);
+
+class Main
+
+	int main(object this)
+		new Main;
+		return 0
+	end;
+
+end;

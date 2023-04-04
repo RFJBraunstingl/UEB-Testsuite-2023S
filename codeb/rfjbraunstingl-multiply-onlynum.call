@@ -1,0 +1,11 @@
+struct objecty { struct mt *mty; };
+extern struct mt { 
+	long (*x)(struct objecty *);
+	long (*z)(struct objecty *);
+} y;
+
+RET(
+	y.x(0) == 120 &&
+	y.z(0) == 270
+);
+
