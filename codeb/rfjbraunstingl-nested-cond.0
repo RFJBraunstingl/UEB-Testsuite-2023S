@@ -1,0 +1,24 @@
+int btod(object, int, int);
+
+class foo
+
+	int btod(object foo, int a, int b)
+		cond
+			1 > a ->
+				cond
+					1 > b -> return 0; break;
+					b > 0 -> return 1; break;
+				end;
+			break;
+			a > 0 -> 
+				cond
+					1 > b -> return 2; break;
+					b > 0 -> return 3; break;
+				end;
+			break;
+			-> break;
+		end;
+	
+		return -1
+	end;
+end;
