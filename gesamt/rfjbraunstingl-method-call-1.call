@@ -1,0 +1,26 @@
+struct obj { struct mt *mty; };
+
+extern struct mt { 
+	long (*multiply_with_double)(struct obj *, long, long);
+	long (*get_double)(struct obj *, long);
+} c;
+
+struct obj *o = malloc(sizeof(struct obj));
+
+long zz = c.multiply_with_double(o, 1, 1);
+long zo = c.multiply_with_double(0, 1, 2);
+long oz = c.multiply_with_double(0, 2, 1);
+long oo = c.multiply_with_double(0, 2, 2);
+
+printf("1 1 -> %d\n", zz);
+printf("1 2 -> %d\n", zo);
+printf("2 1 -> %d\n", oz);
+printf("2 2 -> %d\n", oo);
+
+RET(
+	zz == 2 &&
+	zo == 4 &&
+	oz == 4 &&
+	oo == 8
+);
+

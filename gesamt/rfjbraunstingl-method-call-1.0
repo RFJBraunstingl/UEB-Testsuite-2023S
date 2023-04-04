@@ -1,0 +1,17 @@
+
+int mutliply_with_double(object, int, int);
+int get_double(object, int);
+
+class c
+
+	int mutliply_with_double(object this, int a, int b)
+		object foo <- new c;
+		int double <- get_double(foo, b);
+		return a * double
+	end;
+	
+	int get_double(object this, int in)
+		return in * 2
+	end;
+
+end;
