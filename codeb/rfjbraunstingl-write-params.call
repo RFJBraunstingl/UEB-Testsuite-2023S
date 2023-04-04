@@ -1,0 +1,10 @@
+struct object_foo {
+	struct mt *mto;
+};
+
+extern struct mt { 
+	long (*f)(struct object_foo *, long, long);
+} Main;
+
+RET(Main.f(0, 0, 0) == 14);
+
