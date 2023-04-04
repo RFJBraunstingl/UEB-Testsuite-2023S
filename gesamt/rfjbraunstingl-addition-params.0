@@ -1,0 +1,8 @@
+int add(object, int, int);
+
+class y 
+
+	int add(object foo, int a, int b) 
+		return a + b
+	end;
+end;

@@ -1,0 +1,8 @@
+int lor(object, int, int);
+
+class y 
+
+	int lor(object foo, int a, int b) 
+		return a or b
+	end;
+end;

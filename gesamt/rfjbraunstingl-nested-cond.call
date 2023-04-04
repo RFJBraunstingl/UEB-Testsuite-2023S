@@ -1,0 +1,23 @@
+
+struct obj { struct mt *mty; };
+
+extern struct mt { 
+	long (*btod)(struct obj *, long, long);
+} foo;
+
+long zz = foo.btod(0, 0, 0);
+long zo = foo.btod(0, 0, 1);
+long oz = foo.btod(0, 1, 0);
+long oo = foo.btod(0, 1, 1);
+
+printf("0 0 -> %d\n", zz);
+printf("0 1 -> %d\n", zo);
+printf("1 0 -> %d\n", oz);
+printf("1 1 -> %d\n", oo);
+
+RET(
+	zz == 0 &&
+	zo == 1 &&
+	oz == 2 &&
+	oo == 3
+);

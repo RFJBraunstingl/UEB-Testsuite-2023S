@@ -1,0 +1,14 @@
+int negate(object, int);
+int double_negate(object, int);
+
+
+class y 
+
+	int negate(object foo, int a) 
+		return -a
+	end;
+
+	int double_negate(object foo, int a)
+		return --a
+	end;
+end;

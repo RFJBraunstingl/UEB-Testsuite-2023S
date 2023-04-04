@@ -1,0 +1,4 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*x)(struct objecty *); } y;
+RET(y.x(0) == 6);
+

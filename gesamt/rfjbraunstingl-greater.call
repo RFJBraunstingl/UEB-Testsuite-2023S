@@ -1,0 +1,14 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*f)(struct objecty *, long, long); } y;
+
+printf("2 > 3: %d\n", y.f(0, 2, 3));
+printf("5 > 4: %d\n", y.f(0, 5, 4));
+printf("-4 > 5: %d\n", y.f(0, -4, 5));
+printf("3 > 3: %d\n", y.f(0, 3, 3));
+
+RET(
+y.f(0, 2, 3) == 0 &&
+y.f(0, 5, 4) == -1 &&
+y.f(0, -4, 5) == 0 &&
+y.f(0, 3, 3) == 0
+);

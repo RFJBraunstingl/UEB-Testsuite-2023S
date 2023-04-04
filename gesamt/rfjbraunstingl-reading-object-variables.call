@@ -1,0 +1,37 @@
+
+struct object_foo {
+	struct mt *mto;
+	long a;
+	long b;
+	long c;
+};
+extern struct mt {
+	long (*get_a)(struct object_foo *);
+	long (*get_b)(struct object_foo *);
+	long (*get_c)(struct object_foo *);
+	long (*get_sum)(struct object_foo *);
+} foo;
+
+struct object_foo * o = malloc(sizeof(struct object_foo));
+o->a = 1;
+o->b = 2;
+o->c = 3;
+
+long a = foo.get_a(o);
+printf("DEBUG: a == %ld\n", a);
+
+long b = foo.get_b(o);
+printf("DEBUG: b == %ld\n", b);
+
+long c = foo.get_c(o);
+printf("DEBUG: c == %ld\n", c);
+
+long sum = foo.get_sum(o);
+printf("DEBUG: sum == %ld\n", sum);
+
+RET(
+	a == 1 &&
+	b == 2 &&
+	c == 3 &&
+	sum == 6
+);

@@ -1,0 +1,19 @@
+struct objecty { struct mt *mty; };
+extern struct mt { 
+	long (*lnot)(struct objecty *, long);
+	long (*lnotnot)(struct objecty *, long);
+} y;
+
+long not1 = y.lnot(0, 1);
+long notnot1 = y.lnot(0, not1);
+long notnot = y.lnotnot(0, 1);
+
+printf("not 1 = %ld\n", not1);
+printf("not not 1 = %ld\n", notnot1);
+printf("compare %ld & %ld\n", notnot1, notnot);
+
+RET(
+not1 == -2 &&
+notnot1 == 1 &&
+notnot == notnot1
+);

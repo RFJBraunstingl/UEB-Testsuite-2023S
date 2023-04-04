@@ -1,0 +1,20 @@
+struct object_foo {
+	struct mt *mto;
+	long a;
+	long b;
+};
+
+extern struct mt { 
+	long (*f)(struct object_foo *);
+} Main;
+
+struct object_foo * o = malloc(sizeof(struct object_foo));
+o->a = 1;
+o->b = 2;
+
+RET(
+	Main.f(o) == 14 &&
+	o->a == 18 &&
+	o->b == -4
+);
+

@@ -1,0 +1,7 @@
+struct objecty { struct mt *mty; };
+extern struct mt { long (*add)(struct objecty *, long, long); } y;
+RET(
+y.add(0, 2, 3) == 5 &&
+y.add(0, 4, 5) == 9 &&
+y.add(0, -4, 5) == 1
+);
