@@ -3,9 +3,14 @@ int main(object);
 
 class Main
 
+	int a;
+	object b;
+	int c;
+
 	int main(object this)
 		new Main;
 		return 0
 	end;
 
+	object d;
 end;
