@@ -1,0 +1,33 @@
+int x(object);
+int f(object, int);
+
+class y 
+
+	int x(object foo) 
+		int a <- 0;
+		cond
+			3 > a -> a <- a + 1; continue;
+			4 > a -> a <- a + 2; continue;
+			-> break;
+		end;
+
+		int b <- 1;
+		cond
+			2 > a -> b <- 0; break;
+			a > 2 -> b <- 2; break;
+			-> b <- 3; break;
+		end;
+	
+		return a + b
+	end;
+
+	int f(object this, int select)
+		int a <- -1;
+		cond
+			select > 0 -> a <- 1; break;
+			1 > select -> a <- 0; break;
+		end;
+		
+		return a
+	end;
+end;

@@ -1,0 +1,19 @@
+struct objecty { struct mt *mty; };
+extern struct mt { 
+	long (*x)(struct objecty *);
+	long (*f)(struct objecty *, long);
+} y;
+
+long x = y.x(0);
+printf("DEBUG x: %d\n", x);
+long f1 = y.f(0, 1);
+printf("DEBUG f1: %d\n", f1);
+long f2 = y.f(0, 0);
+printf("DEBUG f2: %d\n", f2);
+
+RET(
+	x == 7 &&
+	f1 == 1 &&
+	f2 == 0
+);
+
