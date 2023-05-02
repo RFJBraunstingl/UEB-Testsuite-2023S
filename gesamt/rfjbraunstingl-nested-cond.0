@@ -2,7 +2,7 @@ int btod(object, int, int);
 
 class foo
 
-	int btod(object foo, int a, int b)
+	int btod(object bar, int a, int b)
 		cond
 			1 > a ->
 				cond
