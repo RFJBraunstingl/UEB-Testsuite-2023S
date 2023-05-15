@@ -1,0 +1,6 @@
+int bar(object, int);
+class c
+  int bar(object o, int x)
+    return 2 + (3 * x)
+  end;
+end;

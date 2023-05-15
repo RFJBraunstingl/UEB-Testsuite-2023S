@@ -1,0 +1,4 @@
+struct objectc { struct mt *mtc;};
+extern struct mt { long (*f)(struct objectc *, long); } c;
+struct objectc o={&c};
+RET(c.f(&o, 10) == 32);

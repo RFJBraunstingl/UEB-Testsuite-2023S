@@ -1,0 +1,3 @@
+struct objectc { struct mt *mtc; };
+extern struct mt { long (*f)(struct objectc *, long); } c;
+RET(c.f(0, 1) == 2 && c.f(0, 2) == 8);

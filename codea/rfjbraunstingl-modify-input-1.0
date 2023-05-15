@@ -1,0 +1,9 @@
+int f(object, int, int);
+class c
+  int f(object o, int a, int b)
+    int x <- 10 * a;
+    int y <- 20 * b;
+    int z <- (a * x) + (b * y);
+    return z
+  end;
+end;
